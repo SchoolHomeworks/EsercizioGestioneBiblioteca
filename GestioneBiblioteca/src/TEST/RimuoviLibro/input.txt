@@ -3,6 +3,7 @@
 Agente Zero
 Jack Mars
 2022
+KMCBV98
 1
 si
 3
@@ -11,16 +12,17 @@ si
 Linguaggio C
 Dennis Ritchie
 1971
+MBBFYH53
 2
 3
 3
 4
-Agente Zero
+KMCBV98
 3
 4
-Linguaggio C
+MBBFYH53
 3
 4
-Captain America
+MALWAPOLS
 3
 0

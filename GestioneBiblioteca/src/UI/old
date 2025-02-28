@@ -42,7 +42,7 @@ public class UI {
         return scelta;
     }
 
-    private void AggiungiLibro(Biblioteca biblioteca){
+    protected void AggiungiLibro(Biblioteca biblioteca){
         _io.PulisciSchermo();
         int scelta = this.SceltaMenuTipoLibro();
         Libro libro;
@@ -59,11 +59,11 @@ public class UI {
         _io.AttendiInvio();
     }
 
-    private void CercaLibro(Biblioteca biblioteca){
+    protected void CercaLibro(Biblioteca biblioteca){
         _io.PulisciSchermo();
-        _io.println("Inserisci il titolo del libro da cercare: ");
-        String titolo = _io.getString();
-        Libro libro = biblioteca.ricercaLibro(titolo);
+        _io.println("Inserisci l' ISBN del libro da cercare: ");
+        String isbn = _io.getString();
+        Libro libro = biblioteca.ricercaLibro(isbn);
         if(libro != null){
             _io.println("Il libro è presente nella biblioteca!");
             _io.println(libro.toString());
@@ -74,11 +74,11 @@ public class UI {
         _io.AttendiInvio();
     }
 
-    private void RimuoviLibro(Biblioteca biblioteca){
+    protected void RimuoviLibro(Biblioteca biblioteca){
         _io.PulisciSchermo();
-        _io.println("Inserisci il titolo del libro da eliminare dalla biblioteca: ");
-        String titolo = _io.getString();
-        if(biblioteca.rimuoviLibro(titolo)){
+        _io.println("Inserisci l' ISBN del libro da eliminare dalla biblioteca: ");
+        String isbn = _io.getString();
+        if(biblioteca.rimuoviLibro(isbn)){
             _io.println("Il libro è stato rimosso con successo dalla biblioteca!");
         }
         else {
@@ -87,7 +87,7 @@ public class UI {
         _io.AttendiInvio();
     }
 
-    private void VisualizzaElencoLibri(Biblioteca biblioteca){
+    protected void VisualizzaElencoLibri(Biblioteca biblioteca){
         _io.PulisciSchermo();
         _io.println("Elenco dei libri presenti nella biblioteca: ");
         ArrayList<Libro> elencoLibri = biblioteca.elencoLibri();

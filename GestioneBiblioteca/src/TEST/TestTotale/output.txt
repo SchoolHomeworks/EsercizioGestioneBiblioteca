@@ -1,7 +1,5 @@
 
 _____ SCHERMO PULITO _____
-
-_____ SCHERMO PULITO _____
 1. Aggiungi libro
 2. Cerca libro
 3. Visualizza elenco libri presenti
@@ -9,16 +7,18 @@ _____ SCHERMO PULITO _____
 0. Esci
 --> 
 _____ SCHERMO PULITO _____
-
-_____ SCHERMO PULITO _____
 Inserisci la tipologia di libro da aggiungere: 
 1. Romanzo
 2. Manuale
---> Inserisci titolo: 
+--> 
+_____ SCHERMO PULITO _____
+Inserisci titolo: 
 Inserisci autore: 
 Inserisci anno_di_produzione: 
+Inserisci isbn: 
 Inserisci scaffale: 
 Il libro è di narrativa?
+Libro aggiunto con successo!
 
 Premi invio per continuare...
 
@@ -31,7 +31,7 @@ _____ SCHERMO PULITO _____
 --> 
 _____ SCHERMO PULITO _____
 Elenco dei libri presenti nella biblioteca: 
-[titolo: Agente Zero] [autore: Jack Mars] [anno_di_produzione: 2022] [genere: romanzo] [narrativa: si]
+[titolo: Agente Zero] [autore: Jack Mars] [anno_di_produzione: 2022] [genere: romanzo] [isbn: MBVTDJ76] [narrativa: si]
 
 Premi invio per continuare...
 
@@ -42,17 +42,19 @@ _____ SCHERMO PULITO _____
 4. Rimuovi libro
 0. Esci
 --> 
-_____ SCHERMO PULITO _____
-
 _____ SCHERMO PULITO _____
 Inserisci la tipologia di libro da aggiungere: 
 1. Romanzo
 2. Manuale
---> Inserisci titolo: 
+--> 
+_____ SCHERMO PULITO _____
+Inserisci titolo: 
 Inserisci autore: 
 Inserisci anno_di_produzione: 
+Inserisci isbn: 
 Inserisci scaffale: 
 Inserisci difficoltà: 
+Libro aggiunto con successo!
 
 Premi invio per continuare...
 
@@ -65,8 +67,8 @@ _____ SCHERMO PULITO _____
 --> 
 _____ SCHERMO PULITO _____
 Elenco dei libri presenti nella biblioteca: 
-[titolo: Agente Zero] [autore: Jack Mars] [anno_di_produzione: 2022] [genere: romanzo] [narrativa: si]
-[titolo: Linguaggio C] [autore: Dennis Ritchie] [anno_di_produzione: 1971] [genere: manuale] [difficolta: 3]
+[titolo: Agente Zero] [autore: Jack Mars] [anno_di_produzione: 2022] [genere: romanzo] [isbn: MBVTDJ76] [narrativa: si]
+[titolo: Linguaggio C] [autore: Dennis Ritchie] [anno_di_produzione: 1971] [genere: manuale] [isbn: MNVEWK24] [difficolta: 3]
 
 Premi invio per continuare...
 
@@ -78,9 +80,9 @@ _____ SCHERMO PULITO _____
 0. Esci
 --> 
 _____ SCHERMO PULITO _____
-Inserisci il titolo del libro da cercare: 
+Inserisci l' ISBN del libro da cercare: 
 Il libro è presente nella biblioteca!
-[titolo: Agente Zero] [autore: Jack Mars] [anno_di_produzione: 2022] [genere: romanzo] [narrativa: si]
+[titolo: Agente Zero] [autore: Jack Mars] [anno_di_produzione: 2022] [genere: romanzo] [isbn: MBVTDJ76] [narrativa: si]
 
 Premi invio per continuare...
 
@@ -92,9 +94,9 @@ _____ SCHERMO PULITO _____
 0. Esci
 --> 
 _____ SCHERMO PULITO _____
-Inserisci il titolo del libro da cercare: 
+Inserisci l' ISBN del libro da cercare: 
 Il libro è presente nella biblioteca!
-[titolo: Linguaggio C] [autore: Dennis Ritchie] [anno_di_produzione: 1971] [genere: manuale] [difficolta: 3]
+[titolo: Linguaggio C] [autore: Dennis Ritchie] [anno_di_produzione: 1971] [genere: manuale] [isbn: MNVEWK24] [difficolta: 3]
 
 Premi invio per continuare...
 
@@ -106,7 +108,7 @@ _____ SCHERMO PULITO _____
 0. Esci
 --> 
 _____ SCHERMO PULITO _____
-Inserisci il titolo del libro da cercare: 
+Inserisci l' ISBN del libro da cercare: 
 Il libro NON è presente nella biblioteca!
 
 Premi invio per continuare...
@@ -120,8 +122,8 @@ _____ SCHERMO PULITO _____
 --> 
 _____ SCHERMO PULITO _____
 Elenco dei libri presenti nella biblioteca: 
-[titolo: Agente Zero] [autore: Jack Mars] [anno_di_produzione: 2022] [genere: romanzo] [narrativa: si]
-[titolo: Linguaggio C] [autore: Dennis Ritchie] [anno_di_produzione: 1971] [genere: manuale] [difficolta: 3]
+[titolo: Agente Zero] [autore: Jack Mars] [anno_di_produzione: 2022] [genere: romanzo] [isbn: MBVTDJ76] [narrativa: si]
+[titolo: Linguaggio C] [autore: Dennis Ritchie] [anno_di_produzione: 1971] [genere: manuale] [isbn: MNVEWK24] [difficolta: 3]
 
 Premi invio per continuare...
 
@@ -133,7 +135,7 @@ _____ SCHERMO PULITO _____
 0. Esci
 --> 
 _____ SCHERMO PULITO _____
-Inserisci il titolo del libro da eliminare dalla biblioteca: 
+Inserisci l' ISBN del libro da eliminare dalla biblioteca: 
 Il libro è stato rimosso con successo dalla biblioteca!
 
 Premi invio per continuare...
@@ -147,7 +149,7 @@ _____ SCHERMO PULITO _____
 --> 
 _____ SCHERMO PULITO _____
 Elenco dei libri presenti nella biblioteca: 
-[titolo: Linguaggio C] [autore: Dennis Ritchie] [anno_di_produzione: 1971] [genere: manuale] [difficolta: 3]
+[titolo: Linguaggio C] [autore: Dennis Ritchie] [anno_di_produzione: 1971] [genere: manuale] [isbn: MNVEWK24] [difficolta: 3]
 
 Premi invio per continuare...
 
@@ -159,7 +161,7 @@ _____ SCHERMO PULITO _____
 0. Esci
 --> 
 _____ SCHERMO PULITO _____
-Inserisci il titolo del libro da eliminare dalla biblioteca: 
+Inserisci l' ISBN del libro da eliminare dalla biblioteca: 
 Il libro è stato rimosso con successo dalla biblioteca!
 
 Premi invio per continuare...
@@ -184,7 +186,7 @@ _____ SCHERMO PULITO _____
 0. Esci
 --> 
 _____ SCHERMO PULITO _____
-Inserisci il titolo del libro da eliminare dalla biblioteca: 
+Inserisci l' ISBN del libro da eliminare dalla biblioteca: 
 Impossibile eliminare il libro!
 
 Premi invio per continuare...

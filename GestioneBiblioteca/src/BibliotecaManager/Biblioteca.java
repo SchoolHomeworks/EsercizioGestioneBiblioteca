@@ -4,6 +4,7 @@ import BibliotecaManager.Libro.Libro;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Set;
 
 public class Biblioteca implements I_Gestibile{
     private HashMap<String, ArrayList<Libro>> hashMapBiblioteca;
@@ -19,26 +20,25 @@ public class Biblioteca implements I_Gestibile{
     }
 
     @Override
-    public boolean rimuoviLibro(String titolo) {
-        if(this.hashMapBiblioteca.containsKey(titolo)){
-            if(this.hashMapBiblioteca.get(titolo).isEmpty()){
-                this.hashMapBiblioteca.remove(titolo);
-            }
-            else{
-                this.hashMapBiblioteca.get(titolo).removeFirst();
-            }
+    public boolean rimuoviLibro(String isbn) {
+        Libro libro = this.ricercaLibro(isbn);
+        if(libro != null){
+            ArrayList<Libro> libri = this.hashMapBiblioteca.get(libro.getTitolo());
+            libri.remove(libro);
             return true;
         }
-        else {
-            return false;
-        }
+        return false;
     }
 
     @Override
-    public Libro ricercaLibro(String titolo) {
-        ArrayList<Libro> libri = this.hashMapBiblioteca.get(titolo);
-        if(libri != null){
-            return libri.getFirst();
+    public Libro ricercaLibro(String isbn) {
+        for(String key : this.hashMapBiblioteca.keySet()){
+            ArrayList<Libro> libri = this.hashMapBiblioteca.get(key);
+            for(Libro libro : libri){
+                if(libro.getIsbn().equals(isbn)){
+                    return libro;
+                }
+            }
         }
         return null;
     }

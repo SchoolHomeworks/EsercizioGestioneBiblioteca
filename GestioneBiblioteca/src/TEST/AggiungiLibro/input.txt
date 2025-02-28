@@ -3,6 +3,7 @@
 Agente Zero
 Jack Mars
 2022
+OIAH87124
 1
 si
 3
@@ -11,6 +12,7 @@ si
 Linguaggio C
 Dennis Ritchie
 1971
+PJETAL542
 2
 3
 3

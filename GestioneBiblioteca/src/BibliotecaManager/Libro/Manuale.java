@@ -27,7 +27,7 @@ public class Manuale extends Libro implements I_ManagedObject {
         if(name.equals("difficolta")){
             this._difficolta = Integer.parseInt(value.toString());
         }
-        else if(!name.equals("titolo") && !name.equals("autore") && !name.equals("anno_di_produzione") && !name.equals("genere") && !name.equals("scaffale")){
+        else if(!name.equals("titolo") && !name.equals("autore") && !name.equals("anno_di_produzione") && !name.equals("genere") && !name.equals("scaffale") && !name.equals("isbn")){
             throw new AssertionError();
         }
     }

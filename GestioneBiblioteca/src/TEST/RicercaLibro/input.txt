@@ -3,6 +3,7 @@
 Agente Zero
 Jack Mars
 2022
+OIWTX2124
 1
 si
 3
@@ -11,13 +12,14 @@ si
 Linguaggio C
 Dennis Ritchie
 1971
+LMJFMW975
 2
 3
 3
 2
-Agente Zero
+OIWTX2124
 2
-Linguaggio C
+LMJFMW975
 2
-Captain America
+AKMASIMS
 0

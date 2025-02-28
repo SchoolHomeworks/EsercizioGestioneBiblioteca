@@ -27,7 +27,7 @@ public class Romanzo extends Libro implements I_ManagedObject {
         if(name.equals("narrativa")){
             this._narrativa = value.toString().equalsIgnoreCase("si");
         }
-        else if(!name.equals("titolo") && !name.equals("autore") && !name.equals("anno_di_produzione") && !name.equals("genere") && !name.equals("scaffale")){
+        else if(!name.equals("titolo") && !name.equals("autore") && !name.equals("anno_di_produzione") && !name.equals("genere") && !name.equals("scaffale") && !name.equals("isbn")){
             throw new AssertionError();
         }
     }
